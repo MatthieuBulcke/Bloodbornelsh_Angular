@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bloodbornelsh</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bloodbornelsh.component.css" type="text/css" />
+    <link rel="icon" type="image/png" href="assets/img/bloodIcon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</head>
+<body>
+    <head>
+        <h1>Bloodbornelsh</h1>
+        <button class="reset">Reset</button>
+        <nav>
+            <ul>
+                <li><a href="#">Lien</a></li>
+                <li><a href="#">Lien</a></li>
+                <li><a href="#">Lien</a></li>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <section class="main">
+            <article class="chooseWeapon empty">
+                <h3>Choisissez une arme</h3>
+                <figure class="weapon">
+                    <img class="weaponImg" src="./assets/img/weapons/hunter_axe.jpg"></img>
+                    <figcaption>hunter_axe</figcaption>
+                </figure>
+                <figure class="weapon">
+                    <img class="weaponImg" src="./assets/img/weapons/saw_cleaver.jpg"></img>
+                    <figcaption>saw_cleaver</figcaption>
+                </figure>
+                <figure class="weapon">
+                    <img class="weaponImg" src="./assets/img/weapons/threaded_cane.jpg"></img>
+                    <figcaption>threaded_cane</figcaption>
+                </figure>
+            </article>
+            <article class="equip">
+                <h3 class="values">100/100</h3>
+                <progress id="life" class="life" max=100 value=100></progress>
+                <h3 class="values">100/100</h3>
+                <progress id="stam" class="stam" max=100 value=100></progress>
+                <figure>
+                    <img class="icon" src="./assets/img/Sun.png"></img>
+                    <figcaption class="time">Temps</figcaption>
+                </figure>
+                <figure>
+                    <img class="icon" src="./assets/img/Echo.png"></img>
+                    <figcaption class="echos">Echos</figcaption>
+                </figure>
+                <figure>
+                    <img class="icon" src="./assets/img/Heal.png"></img>
+                    <figcaption class="heal">Fioles</figcaption>
+                </figure>
+                <figure>
+                    <img class="icon" src="./assets/img/Ammo.png"></img>
+                    <figcaption class="bullets">Balles</figcaption>
+                </figure>
+                <figure>
+                    <img class="icon" src=""></img>
+                    <figcaption class="type">Type de dégats</figcaption>
+                </figure>
+            </article>
+            <article class="game">
+                <div class="container">
+                    <p class="text">Descriptions de scène</p>
+                </div>
+            </article>
+            <article class="choices">
+                <p class="one">Option 1</p>
+                <p class="two">Option 2</p>
+                <p class="three"></p>
+                <p class="four"></p>
+            </article>
+            <article class="inventory">
+            </article>
+            <article>
+                <figure class="monsterFrame empty">
+                    <img class="monsterImg" src=""></img>
+                    <figcaption class="monster"></figcaption>
+                    <button class="atk">ATK</button>
+                    <button class="useHeal">HEAL</button>
+                    <button class="tryAgain">ECHEC</button>
+                </figure>
+            </article>
+            <article>
+                <div class="shop empty">
+                    <figure>
+                        <img src="./assets/img/PNJ/eileen.png" alt="Eileen"></img>
+                        <figcaption class="monster"></figcaption>
+                    </figure>
+                    <div class="articles">
+                        <figure class="article">
+                            <img class="icon" src="./assets/img/Heal.png"></img>
+                            <figcaption class="heal">Fioles</figcaption>
+                            <button class="buy first">Acheter</button>
+                        </figure>
+                        <figure class="article">
+                            <img class="icon" src="./assets/img/Ammo.png"></img>
+                            <figcaption class="bullets">Balles</figcaption>
+                            <button class="buy second">Acheter</button>
+                        </figure>
+                        <figure class="article">
+                            <img class="icon" src="./assets/img/weapons/hunter_axe.jpg"></img>
+                            <figcaption class="weapon">hunter_axe</figcaption>
+                            <button class="buy third">Acheter</button>
+                        </figure>
+                        <figure class="article">
+                            <img class="icon" src="./assets/img/weapons/saw_cleaver.jpg"></img>
+                            <figcaption class="weapon">saw_cleaver</figcaption>
+                            <button class="buy fourth">Acheter</button>
+                        </figure>
+                        <figure class="article">
+                            <img class="icon" src="./assets/img/weapons/tonitrus.jpg"></img>
+                            <figcaption class="weapon">tonitrus</figcaption>
+                            <button class="buy fifth">Acheter</button>
+                        </figure>
+                        <button class="exit">Continuer votre route</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <!--
+        /*
+        template monstre.json
+         "monstre":{
+                    "id":,
+                    "pv":,
+                    "atk":,
+                    "def":,
+                    "faiblesse":,
+                    "img": "./assets/img/monstres/"
+                }
+        */
+        -->
+    </footer>
+</body>
+</html>
